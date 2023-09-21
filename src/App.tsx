@@ -9,8 +9,8 @@ function App() {
                <div className="col-sm-12 col-md-4 col-lg-4">
                    <img src="/assets/logo.png" width={'120px'} alt=""/>
                </div>
-               <div className="col-sm-12 col-md-4 col-lg-4">
-           <ProjectsPage/>
+               <div className="col-sm-12 col-md-4 col-lg-4 text-center">
+                   <h1>Projects</h1>
                </div>
                <div className="col-sm-12 col-md-4 col-lg-4 log-btn">
                    <button className="log">Login</button>
@@ -21,7 +21,8 @@ function App() {
      <blockquote cite="Benjamin Franklin">
            Tell me and I forget, teach me and I may remember, involve me and I learn.
      </blockquote>
-   
+       
+       <ProjectsPage/>
    </>
   );
 }
