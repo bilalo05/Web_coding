@@ -1,0 +1,103 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@font-face {
+    font-family: skyload;
+src: url('../fonts/skyload.ttf');
+}
+@font-face {
+    font-family: infinity;
+    src: url('../fonts/MADEINFINITYPersonalUse-Thin.ttf');
+}
+.app{
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4ab1fe, #4495b2f0, #2f647a);
+    height:35vw;
+    width:100%;
+}
+.codedtexts .codedText{
+    
+    color: white;
+    font-size: 3vw;
+    font-family: skyload;
+    font-weight: bold  ;
+}
+.codedtexts{
+    position: absolute;
+}
+.app .codedText2{
+    color: white;
+    font-size: 1vw;
+    font-family: infinity;
+}
+.intros{
+    margin: 15% 4%;
+}
+.codedText {
+    padding: 0px; margin: 0px; background: transparent; color: #fff; text-align: center; white-space: nowrap; cursor: pointer; width: 150px;
+  
+}
+.codedText2 {
+    padding: 0px; margin: 0px; background: transparent; color: #fff; white-space: normal; cursor: pointer;
+
+    
+}
+.app .codingimg{
+    float: right; position: relative; width: 40%; /* left: 40px; */ bottom: 16vw;
+/*    float: right;
+    position: relative;
+    width: 40%;
+    left: 40px;
+    bottom: 12.7vw;*/
+}
+ul{
+    display:block;
+    width:100%;
+    height:inherit;
+}
+ul{
+    list-style-type:none;
+}
+li:nth-child(1)
+{
+    position:absolute;
+    left:10%;
+    height:30px;
+    width:30px;
+    background:rgba(255,255,255,.2);
+}
+li:nth-child(2)
+{
+    position:absolute;
+    left:30%;
+    height:45px;
+    width:45px;
+    background:rgba(255,255,255,.2);
+}
+li:nth-child(3)
+{
+    position:absolute;
+    left:50%;
+    height:70px;
+    width:70px;
+    background:rgba(255,255,255,.2);
+}
+li:nth-child(4)
+{
+    position:absolute;
+    left:80%;
+    height:20px;
+    width:20px;
+    background:rgba(255,255,255,.2);
+}
+li{
+    animation:animate 15s linear 1s infinite;
+}
+
+@keyframes animate{
+    from{
+        transform: translateY(+1500%) rotate(180deg)
+    }
+    to{
+        transform: translateY(-150%)
+        rotate(360deg)
+    }
+}
