@@ -27,7 +27,7 @@ function App() {
                    <div className={`menu-items ${isMenuOpen ? 'open' : ''}`} >
                        <p>Home</p>
                        <p>Projects</p>
-                       <p>Ideas</p>
+                       <p>Ideasss</p>
                        <p>Contact</p>
                    </div>
                </div>
