@@ -2,7 +2,7 @@
     id: number | undefined;
     name: string = '';
     description: string = '';
-    imageUrl: string = './';
+    imageUrl: string = '';
     contractTypeId: number | undefined;
     contractSignedOn: Date = new Date();
     budget: number = 0;
