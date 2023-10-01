@@ -16,7 +16,7 @@ function App() {
          
            <div className="row">
                <div className="col-sm-6 col-md-6 col-lg-6">
-                   <img src="/assets/logo.png" width={'120px'} alt=""/>
+                   <img src="./assets/logo.png" width={'120px'} alt=""/>
                </div>
                <div className="col-sm-6 col-md-6 col-lg-6 text-center">
                    <button className="hamburger-menu-button" onClick={toggleMenu}>

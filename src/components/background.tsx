@@ -70,10 +70,6 @@ function Background() {
                         <li></li>
                         <li></li>
                         <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
                     </ul>
                 </div>
             </main>
