@@ -63,7 +63,7 @@ function Background() {
                         </div>
                    {/*     <div className="codedText">Yahia Bilal</div>
                         <div className="codedText fromRight">Web Developer</div>*/}
-                        <img className="codingimg" src="/assets/img.svg" alt="" />
+                        <img className="codingimg" src="./assets/img.svg" alt="" />
                     </div>
                     <ul>
                         <li></li>
