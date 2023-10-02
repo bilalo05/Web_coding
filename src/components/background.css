@@ -29,7 +29,7 @@ src: url('../fonts/skyload.ttf');
     font-family: infinity;
 }
 .intros{
-    margin: 15% 4%;
+    margin: 11% 4%;
 }
 .codedText {
     padding: 0px; margin: 0px; background: transparent; color: #fff; text-align: center; white-space: nowrap; cursor: pointer; width: 150px;
@@ -41,7 +41,7 @@ src: url('../fonts/skyload.ttf');
     
 }
 .app .codingimg{
-    float: right; position: relative; width: 40%; /* left: 40px; */ bottom: 16vw;
+    float: right; position: relative; width: 46%; /* left: 40px; */ bottom: 18vw;
 /*    float: right;
     position: relative;
     width: 40%;
@@ -88,16 +88,48 @@ li:nth-child(4)
     width:20px;
     background:rgba(255,255,255,.2);
 }
+li:nth-child(5)
+{
+    position:absolute;
+    left:68%;
+    height:30px;
+    width:30px;
+    background:rgba(255,255,255,.2);
+}
+li:nth-child(6)
+{
+    position:absolute;
+    left:20%;
+    height:75px;
+    width:75px;
+    background:rgba(255,255,255,.2);
+}
+li:nth-child(7)
+{
+    position:absolute;
+    left:40%;
+    height:20px;
+    width:20px;
+    background:rgba(255,255,255,.2);
+}
+li:nth-child(8)
+{
+    position:absolute;
+    left:88%;
+    height:20px;
+    width:20px;
+    background:rgba(255,255,255,.2);
+}
 li{
-    animation:animate 15s linear 1s infinite;
+    animation:animate 25s linear 1s infinite;
 }
 
 @keyframes animate{
-    from{
-        transform: translateY(+1500%) rotate(180deg)
-    }
     to{
-        transform: translateY(-150%)
+        transform: translateY(+1900%) rotate(180deg)
+    }
+    from{
+        transform: translateY(-1850%)
         rotate(360deg)
     }
 }

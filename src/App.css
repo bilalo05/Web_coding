@@ -53,14 +53,16 @@
 }
 .text-center{
     text-align: right;
-    padding-inline-end: 20px;
+    padding-inline-end: 70px;
     align-self: center;
  
 }
 .text-center p{
     display: inline-block;
     font-family: sublima;
-    font-weight: normal;
+    font-weight: normal; 
+    color: whitesmoke;
+    font-size: 1vw;
 }
 .flex-container{
     display: flex;
@@ -103,4 +105,16 @@
     .menu-items {
         display: none;
     }
+}
+
+#menu-container{
+    background: linear-gradient(270deg,#4ab1fe,#4495b2f0,#2f647a);
+}
+
+
+blockquote{
+    width: 50%;
+    margin-inline: auto;
+    font-family: infinity;
+    font-style: normal;
 }

@@ -1,36 +1,22 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import ProjectsPage from "./projects/ProjectsPage";
 import Background from "./components/background";
-function App() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+import Navbar from "./components/Navbar/Navbar";
 
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
+function App() {
+ 
 
     return (
    <>
        <div className="container">
 
          
-           <div className="row">
+           <div className="row" id="menu-container">
                <div className="col-sm-6 col-md-6 col-lg-6">
                    <img src="./assets/logo.png" width={'120px'} alt=""/>
                </div>
-               <div className="col-sm-6 col-md-6 col-lg-6 text-center">
-                   <button className="hamburger-menu-button" onClick={toggleMenu}>
-                       <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
-                       <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
-                       <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
-                   </button>
-                   <div className={`menu-items ${isMenuOpen ? 'open' : ''}`} >
-                       <p>Home</p>
-                       <p>Projects</p>
-                       <p>Ideasss</p>
-                       <p>Contact</p>
-                   </div>
-               </div>
+             <Navbar/>
            {/*    <div className="col-sm-12 col-md-4 col-lg-4 log-btn">
                    <button className="log">Login</button>
                    
@@ -40,11 +26,11 @@ function App() {
                <Background/>
            </div>
        </div>
-     <blockquote cite="Benjamin Franklin">
+       <ProjectsPage/>
+     <blockquote cite="Benjamin Franklin" style={{fontSize:"2rem"}}>
            Tell me and I forget, teach me and I may remember, involve me and I learn.
      </blockquote>
        
-       <ProjectsPage/>
    </>
   );
 }
